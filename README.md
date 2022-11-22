@@ -1,2 +1,20 @@
-# kickstarter-analysis
-Performaning analysis to uncover trends within Kickstarter data
+# Analysis of Kickstarter Campaigns
+With this project I was able to help Louise understand what factors impact a campaigns ability to meet set goals. Within this dataset project I was able to assist Louise with findings to improve her success within her own journey. Lousie has a campaign of her own play, "Fever", which she is close to her fundraising goals in less time than she expected, due to this she wanted to see the overall performance rates based on launch dates, and fundraising goals within her realm of performance: theatrical plays. I took over 4000 campaigns and thier data, and broke it down to an easy to understand analyst in Excel, and report in GitHub, in turn she will be able to easily relay this information to her team to be successful moving forward with her own. 
+## Analysis and Challenges
+With the raw data provided, there was over 4000 different campaigns, with different categories, countries, dates, and funding. The task at hand was to organize the categories, and subcategories, regions, dates, and the fund raising data to break down outconmes related to Louise's campaign of theatrical plays, in particular outcomes based on launch date, and outcomes based on goals
+### Analysis of Outcomes Based on Launch date
+With this request, I broke down the outcomes of success rates witin theatrical play campaigns, and their launch dates
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/111786518/203177681-0d993599-7949-4932-97b4-d6b967b5d7bc.png)
+With this data we can easily see the trend of higher success rates in the spring time, peaking in May, and declining throughout the remainder of the year. Holiday season (November through January) seem to be the least successful, and have the most failures. We can also conclude tht cancellatiosare not correlated with what time of year the launch date. 
+### Analysis of Outcomes Based on Goals
+With this inquiry, I was able to display the the relation between the outcomes of theatrical play campaigns, and their fundrating goals.
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/111786518/203178470-465f4399-e9e1-4fec-a339-843a89ea399a.png)
+With this information, we can easily see a higher success rate with campains of theatrical plays with lower fundraising goals. We cab see the success invert between $15,000 and $20,000 with failure being more likely than success. . Anther inversion happens from campaigns with fundraising goals of $35,000 to $45,000, the reasoning is not yet understood and I would suggest further reaseach to look into this further. Ultamitely, We see the rate of failure is much higher within the larger quantities of higher campaign fundraising goals.
+### Challenges and Diffculties Encountered
+The main issues encountered were with cell referencing for the formulas for successful, failed, and cancelled campaigns, unix timestamps and that some campaigns did not have any backers, causing an error of division by zero, however with confitional statmenets, I was able to provide a solution.  
+## Results
+I recomment that Louis launches her campaign in the Spring (April or May), avoid stating during the Unitied States holiday season (Novemver to January). If she strives for a fundraising goal under $15,000 she will have a higher  cahnce of success.
+### Limitations
+Some limitations from this data are that the data's timeline ranges from 2011 to 2017, the amount of campaigns from 2016 and 2017 are much hgiher than any prior years, and having more data from the prior years and more current data will give a more accuate pool to complie. Also tak into consideration that the United States, is  aver large and diverse country, further breakdowns by State and City could help present more accurate information that Lousie desires. In addtion to that conclusion,  a theatrical play's theme and genre may attract a wider audience than others. This analysis could be more concise with those relevant factots in mind.
+### Other areas to explore
+I would reccomend further exploring the rate of success as a ratio of total funding compared to the goal, reather than a success/fail. I would also want to consider the reate of success percentage than the numbers based on stat date. This was we can explore how the duration of a campaign may impact the outcome of success rates. 
